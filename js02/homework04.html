@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color changer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            background-color: gainsboro;
+        }
+
+        .conteiner {
+            max-width: 600px;
+            margin: auto;
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="conteiner">
+        <label for="colorInput">Enter your color:</label>
+        <input type="color" name="colorInput" id="colorInput">
+        <button class="btn btn-2">Submit and change background color!</button>
+    </div>
+    <script src="/js02/homework04.js"></script>
+</body>
+
+</html>
